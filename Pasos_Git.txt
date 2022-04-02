@@ -1,0 +1,21 @@
+--Crear un usuario local en git
+
+git config --global user.name 'sebasr20'
+git config --global user.email 'sebasr20@gmail.com'
+
+--Para inicializar git
+git init
+
+--Se usa para saber cponstantemente si git hizo lo que quiero
+
+git status
+
+--Agregar todo el contenido de la carpeta se agrega un punto (.)
+
+git add .
+
+--Para confirmar los cambios realizados se realiza un commit y
+se agrega un comentario de informacion acerca de lo realizado
+
+git commit -m 'aqui guarde cosas raras de la u'
+
